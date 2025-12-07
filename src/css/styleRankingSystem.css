@@ -1,0 +1,38 @@
+           /* ID für den Titel der Registrierungen der Teams */
+            #titelRegistrierungTeam
+            {
+                color: darkgoldenrod;
+                font-weight: lighter;
+            }
+
+            /* ID für den Titel der Registrierungen der Spiele */
+            #titelRegistrierungSpiele
+            {
+                color: darkblue;
+                font-weight: lighter;
+            }
+
+            .pflichtfeld
+            {
+                color: red;
+            }
+
+            .success
+            {
+                color: darkgreen;
+                background-color: #e8f5e9;
+                border: 1px solid #4caf50;
+            }
+
+            .error
+            {
+                color: red;
+                background-color: #fdecea;
+                border: 1px solid #f44336;
+            }
+
+            /* Klasse für <div> Elemente, die in der selben Zeile bleiben sollen */
+            .div-inline 
+            {
+                display: inline;
+            }

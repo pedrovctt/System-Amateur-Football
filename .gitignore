@@ -1,0 +1,13 @@
+vendor/
+node_modules/
+*.log
+*.cache
+*.env
+*.DS_Store
+*.exe
+*.dll
+*.so
+*.class
+.idea/
+.vscode/
+Thumbs.db
