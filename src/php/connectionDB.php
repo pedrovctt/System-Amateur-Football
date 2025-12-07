@@ -2,7 +2,7 @@
 // Login Daten für die Datenbankverbindung
 $db_host = 'localhost';
 $db_username = 'pedro';
-$db_passwort = 'pedropedropass';
+$db_passwort = 'password';
 $database = 'ranking_system_fussball';
 
 // Verbindungsherstellung
