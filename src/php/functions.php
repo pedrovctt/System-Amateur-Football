@@ -6,7 +6,7 @@
  * @return bool wenn etwas gefunden wird: true, wenn nicht: false
  */
 
-function stadtExistiert($teamStadt): bool
+function stadtExistiert(string $teamStadt): bool
 {
     // URL der API mit dem Städtenamen aus dem Formular
     $url = 'https://nominatim.openstreetmap.org/search?city=' . urlencode($teamStadt) . '&format=json';
