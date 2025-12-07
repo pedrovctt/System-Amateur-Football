@@ -1,7 +1,7 @@
-SELECT * FROM teams WHERE NAME LIKE '%SC 1912 Berger Preuß%';
+SELECT * FROM teams WHERE NAME LIKE '%Teamname%';
 
-/* Se caso o Auto_Increment bugar */
-/*ALTER TABLE teams AUTO_INCREMENT = valor desejado;*/
+/* Falls Auto_Increment bugt */
+/*ALTER TABLE teams AUTO_INCREMENT = gewünschter Wert;*/
 
 ALTER TABLE spiele
 	ADD FOREIGN KEY(TEAM_HEIM_ID) REFERENCES teams(ID);
